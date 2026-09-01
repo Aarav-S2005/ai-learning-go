@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemma Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="chat-container">
+
+    <header class="chat-header">
+        <h1>AI Chat</h1>
+        <span>Using gemma4:e4b</span>
+    </header>
+
+    <form id="chat-form" class="input-area">
+        <textarea
+                id="message-input"
+                placeholder="Send a message..."
+                rows="1"
+                required
+        ></textarea>
+
+        <button id="send-button" type="submit">
+            Send
+        </button>
+    </form>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
